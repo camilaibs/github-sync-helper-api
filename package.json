@@ -1,0 +1,15 @@
+{
+  "name": "github-sync-helper-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Helps to sync GitHub issues with a GitHub App",
+  "main": "index.js",
+  "dependencies": {
+    "@octokit/oauth-app": "^6.1.0",
+    "@vercel/node": "^3.0.20",
+    "global": "^4.4.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.5.3"
+  }
+}
